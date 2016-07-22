@@ -1,0 +1,38 @@
+【程序包说明】
+ACWZ_GUI：绘制界面
+API：提供入口
+code：中科院分词
+untils：中科院分词相关
+
+【data包说明】
+Data：分词所需
+lib：分词所需
+
+
+【外包说明】
+jna-4.0.0.jar  中科院分词包
+
+【java文件说明】
+ACWZ_GUI：
+	AC_KeywordPanel：关键词界面
+	AC_TypePanel：词性界面
+	acwz_window：主界面
+API：
+	Get_KeyWord_API：关键词入口
+	Get_Partciple：词性入口
+code：
+	NlpirTest：调用中科院分词包，编写的分词
+unils：
+	ReadConfigUtil：中科院分词相关
+	SystemParas：中科院分词相关
+
+【目前功能说明】
+目前API：
+	词性
+	关键词
+
+【附加注意事项说明】
+1.在下载工程后可以建立属于自己的程序包和数据包，尽可能不去改动其它的包，可以用名字首字母命名。
+2.可以创建自己所需的分词功能，添加自己的用户词典。
+3.分词包的期限为一个月，到期后需要重新下载user.lic文件。
+
